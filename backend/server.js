@@ -2,8 +2,8 @@ const { ApolloServer } = require("apollo-server-express");
 const express = require("express");
 const expressPlayground = require("graphql-playground-middleware-express")
     .default;
-
 const typeDefs = require("./schema");
+
 
 const app = express();
 
